@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Test Scroll</title>
+		<style>
+			#container {
+				width: 75vw;
+				height: 500px;
+				border: 1px solid gray;
+				overflow: hidden;
+			}
+
+			#container p {
+				height: 48px;
+				line-height: 48px;
+				margin: 0;
+				padding: 0 1em;
+			}
+
+			#container p.odd {
+				background-color: lightblue;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container"></div>
+		<script src="lib/react.js"></script>
+		<script src="lib/react-dom.js"></script>
+		<script type="module" src="src/main.js"></script>
+	</body>
+</html>
